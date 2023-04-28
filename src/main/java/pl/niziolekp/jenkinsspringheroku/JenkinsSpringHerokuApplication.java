@@ -12,7 +12,7 @@ public class JenkinsSpringHerokuApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(JenkinsSpringHerokuApplication.class, args);
 	}
-	@GetMapping("/")
+	@GetMapping
 	public String get(){
 		return "Hello(simple project Docker+Jenkins+Junit)";
 	}
